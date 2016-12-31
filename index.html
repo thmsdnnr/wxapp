@@ -7,20 +7,13 @@
 <title>WEATHER APP</title>
 <body>
 <div class="app">
- <div id="data">
-<table>
-  <tr>
-    <td>Temp:</td>
-    <td>Low:</td>
-    <td>High:</td>
-  </tr>
-  </table>
-</div>
-<div>ENTER YOUR ZIP CODE FOR WEATHER: 
+<div class="input">ENTER YOUR ZIP CODE FOR WEATHER: 
   <input type="text" id="zipC">
   <select name="cCode" id="cCode"><option value="us">US</option><option value="ca">CA</option></select>
   <select name="CorF" id="tempUnits"><option value="C">˚C</option><option value="F">˚F</option></select>
   <button id="sub">getWX</button></div>
-  <div class="info"></div>
+  <div class="data"></div>
+  <div class="header"><p><em><a href="#" class="sort" id="city">City</a> <a href="#" class="sort" id="zip">Zip</a> <a href="#" class="sort" id="time">Minutes</a></em></p>[click headers to sort by values!]</div>
+  <div class="archive"></div>
 </div>
 </body>
