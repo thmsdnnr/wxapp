@@ -1,0 +1,26 @@
+<html>
+<head>
+  <link rel="stylesheet" type="text/css" href="./style.css">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+  <script src="./app.js"></script>
+</head>
+<title>WEATHER APP</title>
+<body>
+<div class="app">
+ <div id="data">
+<table>
+  <tr>
+    <td>Temp:</td>
+    <td>Low:</td>
+    <td>High:</td>
+  </tr>
+  </table>
+</div>
+<div>ENTER YOUR ZIP CODE FOR WEATHER: 
+  <input type="text" id="zipC">
+  <select name="cCode" id="cCode"><option value="us">US</option><option value="ca">CA</option></select>
+  <select name="CorF" id="tempUnits"><option value="C">˚C</option><option value="F">˚F</option></select>
+  <button id="sub">getWX</button></div>
+  <div class="info"></div>
+</div>
+</body>
